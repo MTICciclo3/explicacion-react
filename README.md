@@ -37,3 +37,4 @@ Con el fin de insertar imágentes se usa la etiqueta <img scr='' alt=''>
 
 Links con la etiqueta <a href=''>
 
+Listas se dividen en ordenadas <ol> o desordenadas <ul>. Los componentes de la lista se insertan con la etiqueta <li>
