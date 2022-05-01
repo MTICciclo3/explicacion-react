@@ -12,10 +12,14 @@ Abrir canal con el repositorio remoto -> git remote add <nombre del repositorio>
   
 Enviar cambios al repositorio remoto -> git push <nombre de la rama remota>
   
-Traer cambios del remoto -> git pull <nombre remoto>
+Traer cambios del remoto -> git pull <nombre remoto> <nombre de la rama>
   
 Cambio de rama -> git checkout
   
 Crear rama -> git checkout -b <nombre de la rama>
   
 Unir ramas -> git merge <rama a unir>
+
+# HTML
+
+Se crea una rama de html para realizar el ejercicio de clase
