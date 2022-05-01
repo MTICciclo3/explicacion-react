@@ -25,8 +25,8 @@ Unir ramas -> git merge <rama a unir>
 Se crea una rama de html para realizar el ejercicio de clase. 
 
 Etiquetas principales
-<head> - Dentro del head están los redireccionamientos y lógica de la página 
-<body> - Se divide en <header>, <main>, <footer> donde se ubican todos las demás características de la página. En el <main> se ubican las secciones con la etiqueta <section>.
+<head> - Configuración de la ágina web 
+<body> - Se pone el contenido dividido en <header>, <main>, <footer> donde se ubican todos las demás características de la página. En el <main> se ubican las secciones con la etiqueta <section>.
 
 Para insertar texto se puede usar la etiquetra <article>, dentro de esta se puede insertar de tres formas:
  1. Usando las etiquetas <h1>, <h2>, <h3>, <h4>, <h5>, <h6> donde las h1 es la etiqueta con letra más grande.
