@@ -77,10 +77,14 @@ ul {
 
 .breedCardContainer {
     display: flex;
+    border-radius: 10px;
 }
 
 .breedCard {
-    margin: 10px
+    margin: 10px;
+    background-color: grey;
+    box-shadow: 5px 10px grey;
+    
 }
 
 .contenedorImagen {
@@ -92,4 +96,5 @@ ul {
 .contenedorImagen > img {
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
 }
