@@ -10,6 +10,7 @@ ul {
     padding: 10px;
 }
 
+<<<<<<< HEAD
 .logo{
     height: 150px;
 }
@@ -28,4 +29,16 @@ ul {
     cursor: pointer;
     /*box-shadow: 5px 5px green;*/
     transform: scale(1.1);
+=======
+.buscar{
+    background-color: white;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+>>>>>>> 8-crear-cuadro-busqueda
 }
