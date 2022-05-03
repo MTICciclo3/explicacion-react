@@ -10,14 +10,11 @@ ul {
     padding: 10px;
 }
 
-<<<<<<< HEAD
 .logo{
     height: 150px;
 }
 
-.mainButton {
-    background-color: green;
-    color:white;
+.button {
     font-weight: bold;
     border: 0px;
     padding: 5px 10px;
@@ -25,11 +22,27 @@ ul {
     box-shadow: 2px 2px rgb(139, 189, 139);
 }
 
+.mainButton {
+    background-color: green;
+    color:white;
+}
+
 .mainButton:hover {
     cursor: pointer;
     /*box-shadow: 5px 5px green;*/
     transform: scale(1.1);
-=======
+}
+.secondaryButton {
+    background-color: rgb(96, 96, 164);
+    color:white;
+}
+
+.secondaryButton:hover {
+    cursor: pointer;
+    /*box-shadow: 5px 5px green;*/
+    transform: scale(1.1);
+}
+
 .buscar{
     background-color: white;
     border: 1px solid;
@@ -40,5 +53,4 @@ ul {
 .buscar > input {
     outline: none;
     border: 0px;
->>>>>>> 8-crear-cuadro-busqueda
 }
