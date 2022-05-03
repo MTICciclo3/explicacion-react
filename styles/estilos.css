@@ -9,3 +9,15 @@ ul {
     justify-content: space-between;
     padding: 10px;
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
