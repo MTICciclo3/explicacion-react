@@ -1,0 +1,56 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.button {
+    font-weight: bold;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(139, 189, 139);
+}
+
+.mainButton {
+    background-color: green;
+    color:white;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+    /*box-shadow: 5px 5px green;*/
+    transform: scale(1.1);
+}
+.secondaryButton {
+    background-color: rgb(96, 96, 164);
+    color:white;
+}
+
+.secondaryButton:hover {
+    cursor: pointer;
+    /*box-shadow: 5px 5px green;*/
+    transform: scale(1.1);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
