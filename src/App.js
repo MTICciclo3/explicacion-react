@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./media/logo.jpg";
 import "./styles/App.css";
 import BorderCollie from './media/BorderCollie.avif';
 import Rhodesian from './media/Rhodesian.jpg';
@@ -14,7 +14,7 @@ function App() {
         <ul className="navbar">
           <li>
             <img
-              src="./media/logo.jpg"
+              src={logo}
               alt="Imagen de un perrito"
               className="logo"
             />
