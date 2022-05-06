@@ -49,13 +49,13 @@ function App() {
   );
 }
 
-function CardRazasPerros(props) {
+function CardRazasPerros({ nombreRaza, imagen}) {
   return (
     <li className="breedCard">
       <div className="contenedorImagen">
-        <img src={props.imagen} alt={props.nombreRaza} />
+        <img src={imagen} alt={nombreRaza} />
       </div>
-      <span className="breedTitle">{props.nombreRaza}</span>
+      <span className="breedTitle">{nombreRaza}</span>
     </li>
   );
 }
