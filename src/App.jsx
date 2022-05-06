@@ -4,6 +4,7 @@ import BorderCollie from "./media/BorderCollie.avif";
 import Rhodesian from "./media/Rhodesian.jpg";
 import GermanSheaperd from "./media/GermanSheaperd.avif";
 import Doberman from "./media/Doberman.jpg";
+import CardRazasPerros from "./components/CardRazasPerros";
 
 function App() {
   return (
@@ -46,17 +47,6 @@ function App() {
       </main>
       <footer></footer>
     </div>
-  );
-}
-
-function CardRazasPerros({ nombreRaza, imagen}) {
-  return (
-    <li className="breedCard">
-      <div className="contenedorImagen">
-        <img src={imagen} alt={nombreRaza} />
-      </div>
-      <span className="breedTitle">{nombreRaza}</span>
-    </li>
   );
 }
 
