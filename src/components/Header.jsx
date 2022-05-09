@@ -1,11 +1,14 @@
 import logo from "media/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <ul className="navbar">
         <li>
-          <img src={logo} alt="Imagen de un perrito" className="logo" />
+          <Link to="/">
+            <img src={logo} alt="Imagen de un perrito" className="logo" />
+          </Link>
         </li>
         <li>
           <button className=" button mainButton">+ Nuevo Post</button>
@@ -25,10 +28,9 @@ const Header = () => {
       </ul>
     </header>
   );
-}
+};
 
 export default Header;
-
 
 // function nombreFuncion () {
 //    return "esto es una función"

@@ -4,6 +4,22 @@ ul {
   margin: 0px;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+}
+
+.mainContainer > footer {
+  background-color: rgb(238, 229, 229);
+  padding: 10px;
+  border-top: 1px solid grey;
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
