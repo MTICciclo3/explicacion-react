@@ -1,10 +1,10 @@
-import logo from "./media/logo.jpg";
-import "./styles/App.css";
-import BorderCollie from "./media/BorderCollie.avif";
-import Rhodesian from "./media/Rhodesian.jpg";
-import GermanSheaperd from "./media/GermanSheaperd.avif";
-import Doberman from "./media/Doberman.jpg";
-import CardRazasPerros from "./components/CardRazasPerros";
+import logo from "media/logo.jpg";
+import "styles/App.css";
+import BorderCollie from "media/BorderCollie.avif";
+import Rhodesian from "media/Rhodesian.jpg";
+import GermanSheaperd from "media/GermanSheaperd.avif";
+import Doberman from "media/Doberman.jpg";
+import CardRazasPerros from "components/CardRazasPerros";
 
 function App() {
   return (
